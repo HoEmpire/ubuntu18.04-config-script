@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 # 在安装zsh并重启后
 echo "\e[35m using Tsinghua source \e[0m"
 sudo echo -e "#Tsinhua

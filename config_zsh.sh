@@ -2,10 +2,10 @@
 # 在安装zsh并重启后
 
 echo "\e[35m intalling oh-my-zsh \e[0m"
-sudo apt install git
-git config --global http.proxy 'socks5://127.0.0.1:1080' 
-git config --global https.proxy 'socks5://127.0.0.1:1080'
-echo 'nameserver 8.8.8.8'>>/etc/resolv.conf
+#sudo apt install git
+#git config --global http.proxy 'socks5://127.0.0.1:1080' 
+#git config --global https.proxy 'socks5://127.0.0.1:1080'
+sudo echo 'nameserver 8.8.8.8'>>/etc/resolv.conf
 mkdir ~/git-file
 cd ~/git-file
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
